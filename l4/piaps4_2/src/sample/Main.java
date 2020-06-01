@@ -21,7 +21,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        File file = new File("C:\\Users\\Кирилл\\Desktop\\sem5\\piaps4\\resoures\\test.jpg");
+        File file = new File("piaps4_2\\res\\l.jpg");
         BufferedImage res = ImageIO.read(file);
 
         ProxyImage proxyImage = new ProxyImage();
